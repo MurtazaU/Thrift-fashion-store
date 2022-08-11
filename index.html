@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thrift Fashion Store</title>
+
     <!-- Bootstrap CSS Link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -12,19 +13,25 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
     <!-- Navbar CSS Link -->
-    <link rel="stylesheet" href="./assets/CSS/navbar.css">
-    
+    <link rel="stylesheet" href="./assets/CSS/navbar.css" />
+    <!-- Home CSS Link -->
+    <link rel="stylesheet" href="./assets/CSS/home.css" />
     <!-- Google Fonts: Poppins & Oswald -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Kit JS Link -->
+    <script
+      src="https://kit.fontawesome.com/9e68e86282.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Navbar Starts -->
     <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-nav fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-nav fixed-top" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">TFS</a>
           <button
@@ -48,9 +55,6 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -63,27 +67,95 @@
                   Products
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" id="link" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider" /></li>
                 </ul>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Feedback</a>
-                  </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Feedback</a>
               </li>
             </ul>
 
             <ul class="navbar-nav ms-auto">
-                <button class="btn btn-outline-primary">Search</button>
+              <div>
+                <i class="fa-solid fa-magnifying-glass nav-icons"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-cart-plus nav-icons"></i>
+              </div>
             </ul>
           </div>
         </div>
       </nav>
     </header>
     <!-- Navbar Ends -->
+
+    <!-- Main Body Starts -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="bg hero">
+          <!-- Text -->
+          <div class=" col-6  me-auto content">
+            <h1>Welcome John Snow</h2>
+            <h3>Are You Ready To Buy</h3>
+            <a href="#" class="">View Products</a>
+          </div>
+          <!-- Text -->
+          <div class=" col-6  me-auto content">
+            <h1>Animation Should Come Here</h2>
+            <h3>SVG | Or Something Else</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="bg hero">
+          <!-- Text -->
+          <div class=" col-6  me-auto content">
+            <h1>Welcome John Snow</h2>
+            <h3>Are You Ready To Buy</h3>
+            <a href="#" class="">View Products</a>
+          </div>
+          <!-- Text -->
+          <div class=" col-6  me-auto content">
+            <h1>Animation Should Come Here</h2>
+            <h3>SVG | Or Something Else</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="bg hero">
+          <!-- Text -->
+          <div class=" col-6  me-auto content">
+            <h1>Welcome John Snow</h2>
+            <h3>Are You Ready To Buy</h3>
+            <a href="#" class="">View Products</a>
+          </div>
+          <!-- Text -->
+          <div class=" col-6  me-auto content">
+            <h1>Animation Should Come Here</h2>
+            <h3>SVG | Or Something Else</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Landing Img Starts -->
+
+    <!-- Landing Img Ends -->
+
+    <!-- Main Body Ends -->
+
+    <!-- Footer Starts -->
+    <!-- <a href="https://iconscout.com/illustrations/shopping" target="_blank">Shopping Illustration</a> by <a href="https://iconscout.com/contributors/manypixels-gallery">Manypixels Gallery</a> on <a href="https://iconscout.com">IconScout</a> -->
+    <!-- Footer Ends -->
 
     <!-- Bootstrap JS Link -->
     <script

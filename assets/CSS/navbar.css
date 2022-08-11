@@ -30,7 +30,7 @@ ul {
 
 /* Targeted Styling */
 .navbar {
-  background-color: white;
+  background-color: #2a3d45;
   padding: 1rem 2rem;
   height: 0rem;
   min-height: 12vh;
@@ -60,7 +60,7 @@ ul {
   width: 22px;
   height: 2px;
   border: 1px;
-  background-color: #fff;
+  background-color: #ebebeb;
 }
 .navbar-toggler > span + span {
   margin-top: 4px;
@@ -77,9 +77,12 @@ ul {
   padding: 2rem 1.4rem;
   font-size: 1.1rem;
   position: relative;
+  color: #ebebeb !important;
+  transition: color 0.25s linear;
 }
 /* Navbar Link On Hover */
 .nav-link:hover {
+  color: #e74c3c;
   border-top: 2px solid #e74c3c;
   padding: 1.8rem 1.2rem;
 }
@@ -91,3 +94,16 @@ ul {
 }
 
 /* Navbar Icons */
+.nav-icons {
+  padding: 2rem 1.4rem;
+  position: relative;
+  font-size: 25px;
+  color: #ebebeb;
+  transition: color 0.25s linear;
+}
+/* Navbar Icons Transitions */
+.nav-icons:hover {
+  border-top: 2px solid #e74c3c;
+  padding: 1.8rem 1.4rem;
+  color: #e74c3c;
+}
